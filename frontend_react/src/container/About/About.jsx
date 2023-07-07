@@ -3,7 +3,13 @@ import { motion } from "framer-motion";
 
 import "./About.scss";
 
-const abouts = [{ title: "Web Development" }];
+const abouts = [
+  {
+    title: "Web Development",
+    description: "I am a good web developer.",
+    imgUrl: "",
+  },
+];
 
 const About = () => {
   return (
