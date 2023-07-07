@@ -1,8 +1,6 @@
-# kien-portfolio
+# front-end of kien-portfolio
 
-Main portfolio of Kien where include all information about Kien.
-
-The project use Sanity platform for backend and react for frontend.
+using React for frontend.
 
 # Getting Started with Create React App
 
