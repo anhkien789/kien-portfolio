@@ -1,3 +1,9 @@
+# kien-portfolio
+
+Main portfolio of Kien where include all information about Kien.
+
+The project use Sanity platform for backend and react for frontend.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
