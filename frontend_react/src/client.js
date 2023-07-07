@@ -2,9 +2,13 @@ import { createClient } from "@sanity/client";
 import imageUrlBuilder from "@sanity/image-url";
 
 export const client = createClient({
-  projectId: process.env.KIEN_PORTFOLIO_SANITY_PROJECT_ID,
+  projectId: process.env.REACT_APP_KIEN_PORTFOLIO_SANITY_PROJECT_ID,
   dataset: "production",
   apiVersion: "2023-07-07",
   useCdn: true,
-  token: process.env.KIEN_PORTFOLIO_SANITY_TOKEN,
+  token: process.env.REACT_APP_KIEN_PORTFOLIO_SANITY_TOKEN,
 });
+
+const builder = imageUrlBuilder(client);
+
+export const urlFor = (source) => builder.image(source);
