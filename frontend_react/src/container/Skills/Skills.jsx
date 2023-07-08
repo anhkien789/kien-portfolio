@@ -67,6 +67,7 @@ const Skills = () => {
                     </motion.div>
                     <ReactTooltip
                       id={work.name}
+                      // noArrow
                       effect="solid"
                       arrowColor="#fff"
                       className="skills-tooltip"
@@ -84,4 +85,4 @@ const Skills = () => {
   );
 };
 
-export default Skills;
+export default AppWrap(Skills, "skills");
